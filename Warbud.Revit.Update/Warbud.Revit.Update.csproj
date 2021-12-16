@@ -13,7 +13,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\..\Warbud.Shared\Warbud.Shared\Warbud.Shared.csproj" />
-      <ProjectReference Include="..\..\Warbud.Shared\Warbud.Shared\Warbud.Shared.csproj" />
     </ItemGroup>
 
 </Project>
