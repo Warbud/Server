@@ -4,9 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warbud.Revit.Update", "Warb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warbud.Revit.Statistics", "Warbud.Revit.Statistics\Warbud.Revit.Statistics.csproj", "{D9BF31AE-F9D1-420D-85A4-76EE09B9F6AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warbud.Shared.Abstraction", "..\..\Warbud.Shared\Warbud.Shared.Abstraction\Warbud.Shared.Abstraction.csproj", "{F4261DCC-8797-482F-AA27-D39A4038CB43}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warbud.Shared", "..\..\Warbud.Shared\Warbud.Shared\Warbud.Shared.csproj", "{0439417E-4C3C-4359-94E3-2631D7D27E69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "..\..\Shared\Shared\Shared.csproj", "{899608E5-EC6D-4774-9E78-46C7880D81F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,13 +20,9 @@ Global
 		{D9BF31AE-F9D1-420D-85A4-76EE09B9F6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9BF31AE-F9D1-420D-85A4-76EE09B9F6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9BF31AE-F9D1-420D-85A4-76EE09B9F6AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4261DCC-8797-482F-AA27-D39A4038CB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4261DCC-8797-482F-AA27-D39A4038CB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4261DCC-8797-482F-AA27-D39A4038CB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4261DCC-8797-482F-AA27-D39A4038CB43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0439417E-4C3C-4359-94E3-2631D7D27E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0439417E-4C3C-4359-94E3-2631D7D27E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0439417E-4C3C-4359-94E3-2631D7D27E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0439417E-4C3C-4359-94E3-2631D7D27E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899608E5-EC6D-4774-9E78-46C7880D81F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899608E5-EC6D-4774-9E78-46C7880D81F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899608E5-EC6D-4774-9E78-46C7880D81F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899608E5-EC6D-4774-9E78-46C7880D81F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
