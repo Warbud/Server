@@ -16,10 +16,7 @@ namespace Warbud.Revit.Update
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    var port = UseUrlsConfiguration.Configure()
-                        .SetConfigPath("C:/Users/afranczak/source/repos/Nairda015/Warbud/ports.json")
-                        .GetPort("RevitUpdate");
-                    webBuilder.UseUrls($"http://localhost:{port.ToString()}");
+                    webBuilder.UseUrls("http://localhost:3020");
                 });
     }
 }

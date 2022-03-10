@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Warbud.Shared.Configurations;
 
 namespace Warbud.Revit.Statistics
 {
@@ -17,10 +16,7 @@ namespace Warbud.Revit.Statistics
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    var port = UseUrlsConfiguration.Configure()
-                        .SetConfigPath("C:/Users/afranczak/source/repos/Nairda015/Warbud/ports.json")
-                        .GetPort("RevitStatistics");
-                    webBuilder.UseUrls($"http://localhost:{port.ToString()}");
+                    webBuilder.UseUrls("http://localhost:3030");
                 });
         }
     }
