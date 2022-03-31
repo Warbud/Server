@@ -12,6 +12,9 @@ namespace Warbud.Revit.Statistics.Infrastructure.Configurations
         {
             builder.HasKey(pl => pl.Id);
             builder.Property(pl => pl.Id).ValueGeneratedOnAdd();
+
+            builder.Property(x => x.DateTime)
+                .IsRequired();
             
             builder.OwnsOne(x => x.OperationData)
                 .Property(x => x.AppName)
